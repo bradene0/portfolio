@@ -84,7 +84,7 @@ PROFESSIONAL EXPERIENCE
 
 Founder & Principal Engineer — VikScripts Dec 2023 - Present
 
-    Generated over $60,000 in revenue by architecting and developing full-stack applications using a polyglot stack, including Java (Spring Boot) for backend services and React for responsive frontend interfaces.
+    Generated revenue by architecting full-stack applications
 
     Managed the complete deployment lifecycle on AWS for all client applications, implementing CI/CD pipelines with GitHub Actions and utilizing Docker for containerization to ensure reliable, automated software delivery.
 
