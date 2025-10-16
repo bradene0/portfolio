@@ -303,23 +303,54 @@ document.querySelectorAll('section').forEach(section => {
     revealSections.observe(section);
 });
 
-// Counter animation for stats (if you want to add them later)
-function animateCounter(element, target, duration = 2000) {
+// Enhanced counter animation for project metrics
+function animateCounter(element, target, duration = 2000, suffix = '') {
     let start = 0;
     const increment = target / (duration / 16);
+    const isFloat = target % 1 !== 0;
     
     function updateCounter() {
         start += increment;
         if (start < target) {
-            element.textContent = Math.floor(start);
+            if (isFloat) {
+                element.textContent = start.toFixed(1) + suffix;
+            } else {
+                element.textContent = Math.floor(start).toLocaleString() + suffix;
+            }
             requestAnimationFrame(updateCounter);
         } else {
-            element.textContent = target;
+            if (isFloat) {
+                element.textContent = target.toFixed(1) + suffix;
+            } else {
+                element.textContent = target.toLocaleString() + suffix;
+            }
         }
     }
     
     updateCounter();
 }
+
+// Initialize counters when they come into view
+const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+            entry.target.classList.add('counted');
+            const target = parseInt(entry.target.dataset.target);
+            const suffix = entry.target.dataset.suffix || '';
+            const duration = parseInt(entry.target.dataset.duration) || 2000;
+            
+            animateCounter(entry.target, target, duration, suffix);
+        }
+    });
+}, {
+    threshold: 0.5,
+    rootMargin: '0px 0px -100px 0px'
+});
+
+// Observe all counter elements
+document.querySelectorAll('.counter').forEach(counter => {
+    counterObserver.observe(counter);
+});
 
 // Cursor trail effect
 class CursorTrail {
