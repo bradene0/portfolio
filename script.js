@@ -18,12 +18,21 @@ navLinks.forEach(link => {
     });
 });
 
-// Navbar scroll effect
+// Navbar scroll effect with name animation
+const navName = document.querySelector('.nav-name');
+const heroTitle = document.querySelector('.hero-title');
+
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 100) {
+    const heroTitleRect = heroTitle.getBoundingClientRect();
+    const heroTitleBottom = heroTitleRect.bottom;
+    
+    // Show name in navbar when hero title is scrolled past
+    if (heroTitleBottom < 100) {
+        navName.classList.add('visible');
         navbar.style.background = 'rgba(10, 10, 10, 0.98)';
         navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.3)';
     } else {
+        navName.classList.remove('visible');
         navbar.style.background = 'rgba(10, 10, 10, 0.95)';
         navbar.style.boxShadow = 'none';
     }

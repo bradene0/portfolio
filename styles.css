@@ -87,6 +87,21 @@ body {
     height: 70px;
 }
 
+.nav-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.nav-name.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
 .nav-logo .logo-text {
     font-size: 1.5rem;
     font-weight: 700;
