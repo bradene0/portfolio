@@ -1,0 +1,105 @@
+BRADEN EVANS
+
++1(636) 795-4466 ⋄ St. Louis, MO bradene0@outlook.com ⋄ linkedin.com/in/bradene00 ⋄ github.com/bradene0
+
+PROFESSIONAL SUMMARY
+
+An entrepreneurial and versatile Software Engineer with a proven ability to architect and build complex, end-to-end platforms from scratch. My journey has spanned from founding a profitable software consultancy to self-directed deep dives into modern DevOps, quantitative finance, and AI-driven data visualization. I specialize in Python, Java, and the full stack of modern web technologies, with a unique skill for distilling complex technical concepts into clear, understandable terms for any audience. I am a proactive problem-solver with a founder's mindset, passionate about turning ambitious ideas into high-quality, impactful software.
+
+SKILLS & TECHNICAL PROFICIENCIES
+
+    Languages & Frameworks: Python, Java, OCaml, JavaScript, TypeScript, C#, SQL, Bash, HCL (Terraform)
+
+    Web & Backend: Next.js, React, Node.js, Spring / Spring Boot, Flask, FastAPI, Drizzle ORM
+
+    Cloud & DevOps:
+
+        CI/CD Pipeline Architecture: GitHub Actions
+
+        Infrastructure as Code (IaC): Terraform
+
+        Containerization: Docker, Docker Compose
+
+        Cloud Platforms (AWS): EC2 (Spot Instances), S3, ECS, Fargate, ECR, RDS, ALB, VPC, IAM
+
+    Quantitative, AI, & Data Engineering:
+
+        Libraries: Pandas, NumPy, SciPy, Statsmodels, Prophet, ARCH, NetworkX
+
+        Concepts: Machine Learning Forecasting, Statistical Modeling, Algorithmic Trading, AI Embeddings (Sentence Transformers)
+
+    Databases: PostgreSQL, MySQL, MongoDB, pgvector
+
+    Visualization: Streamlit, Three.js, React Three Fiber, D3.js, Plotly, WebGL
+
+    Developer Tools & Methodologies: Git, Jira, Agile/Scrum, REST API Design, Object-Oriented Programming (OOP)
+
+PROJECT PORTFOLIO
+
+LYNX: A Scalable 3D Semantic Knowledge Galaxy | [Live Demo Link] A novel semantic mapping and visualization platform that transforms knowledge exploration through an immersive 3D galaxy metaphor. The system processes diverse knowledge sources, generates semantic embeddings, and renders the information as an interactive 3D galaxy, achieving 60 FPS performance with over 10,000 concepts.
+
+    Key Contributions & Skills Demonstrated:
+
+        Architected a full-stack semantic visualization platform using a modern monorepo structure with Next.js, React, TypeScript, and a Python data pipeline.
+
+        Implemented a real-time 3D galaxy renderer from scratch using Three.js and React Three Fiber, including a custom Level-of-Detail (LOD) system to ensure high performance at scale.
+
+        Engineered a Python data pipeline for ingesting, cleaning, and generating 384-dimensional semantic embeddings from Wikipedia and arXiv using Sentence-BERT models.
+
+        Designed a robust backend with PostgreSQL and the pgvector extension to enable high-speed vector similarity searches, achieving sub-200ms query response times.
+
+        Authored a formal, IEEE-style research paper on the project's architecture, mathematical foundations, and the results of a quantitative performance evaluation and a user study.
+
+Proprietary Quantitative Finance & Trading Platform | [Live Demo Link] An institutional-grade quantitative finance platform built from scratch in Python. The system features a live, interactive Streamlit dashboard and integrates three distinct, professional-grade engines for real-time market analysis, statistical arbitrage, and volatility/derivatives trading. The entire platform comprises over 11,000 lines of production-quality code.
+
+    Key Contributions & Skills Demonstrated:
+
+        Architected and built the entire 11,000-line platform, including three distinct analysis engines for Statistical Arbitrage, Volatility & Derivatives Arbitrage, and Real-Time Analytics.
+
+        Engineered a professional-grade backtesting framework to rigorously test trading strategies, featuring realistic transaction cost simulation, sophisticated position sizing, and a full suite of performance metrics (Sharpe ratio, max drawdown).
+
+        Implemented a complete Black-Scholes options pricing model, including the calculation of all Greeks, and multiple advanced volatility models such as GARCH and EWMA.
+
+        Developed a polished, interactive web-based dashboard using Streamlit and Plotly for real-time data visualization and user interaction.
+
+High-Performance Algorithmic Solver in OCaml | [GitHub Link] A high-performance solver for a novel and notoriously difficult "reverse" pentomino hook puzzle, a computationally massive combinatorial problem. The program was implemented from scratch in OCaml to tackle the massive search space.
+
+    Key Contributions & Skills Demonstrated:
+
+        Self-taught OCaml to architect and implement the solver, including the data structures and core logic for a complex backtracking algorithm, leveraging Jane Street's Core library.
+
+        Containerized the compiled OCaml application using Docker and successfully executed it on a compute-optimized AWS EC2 Spot Instance to handle the massive computational workload, demonstrating HPC and cloud cost-optimization skills.
+
+Production-Grade DevOps Pipeline on AWS | [GitHub Link] A complete, end-to-end CI/CD pipeline built on AWS that automatically builds, tests, secures, and deploys a containerized Python microservice. The entire system is defined using Infrastructure as Code.
+
+    Key Contributions & Skills Demonstrated:
+
+        Designed and built a complete, end-to-end CI/CD pipeline using GitHub Actions, demonstrating expertise in pipeline architecture and automation.
+
+        Authored extensive, modular Terraform (HCL) code to define the entire cloud infrastructure, including the VPC, ECS cluster, ALB, and ECR.
+
+        Implemented DevSecOps best practices by integrating automated testing (Pytest) and security scanning (Bandit) directly into the CI workflow to act as quality gates.
+
+PROFESSIONAL EXPERIENCE
+
+Founder & Principal Engineer — VikScripts Dec 2023 - Present
+
+    Generated over $60,000 in revenue by architecting and developing full-stack applications using a polyglot stack, including Java (Spring Boot) for backend services and React for responsive frontend interfaces.
+
+    Managed the complete deployment lifecycle on AWS for all client applications, implementing CI/CD pipelines with GitHub Actions and utilizing Docker for containerization to ensure reliable, automated software delivery.
+
+    Led all client engagements from initial consultation and requirements gathering to final deployment and support, translating ambiguous business requirements into detailed technical specifications and architectural designs.
+
+Digital Lab Technician — DynaFlex Apr 2023 - Dec 2024
+
+    Increased patient file processing speed by 50% by independently designing and developing a Python script to automate the entire data intake workflow, ensuring full HIPAA compliance.
+
+    Saved the technical team over 20 hours of manual work per week by architecting and building a desktop automation application using C# and WinForms.
+
+EDUCATION & CERTIFICATIONS
+
+St. Charles Community College — B.S. in Computer Science (Transfer Program) Current (GPA: 3.53) | Relevant Coursework: Algorithmic Problem-Solving, Technical Communication
+
+LaunchCode, Certificate in Software Engineering, 2023
+
+Contra, Top Full Stack Software Engineer to Hire in Missouri, 2025
